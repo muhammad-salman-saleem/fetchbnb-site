@@ -1,0 +1,43 @@
+.main {
+    margin-top: 100px;
+    background: #FAFAFA;
+    width: 100vw;
+    min-height: 700px;
+    padding-top: 50px;
+}
+
+.title__main {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 130%;
+    /* or 62px */
+    text-align: center;
+    color: #000000;
+}
+
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 80px;
+    margin-bottom: 34px;
+}
+
+.sum {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #393939;
+    padding: 10px 0px;
+}

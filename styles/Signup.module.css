@@ -1,0 +1,15 @@
+.side__image {
+    height: calc(100vh - 57px);
+    position: fixed;
+    top: calc(0 - 57px);
+    right: 0;
+    width: 100%;
+    pointer-events: none;
+    maxWidth: 40vw;
+}
+
+@media (max-width: 1362px) {
+    .side__image {
+        display: none;
+    }
+}

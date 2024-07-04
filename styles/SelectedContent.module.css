@@ -1,0 +1,454 @@
+.layout {
+    padding-left: 32px;
+    padding-right: 15px;
+    padding-top: 37px;
+    max-width: 671px;
+    width: 100%;
+}
+
+.dashboard__header {
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.header__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__item h4 {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+    margin-top: 4px;
+}
+
+.header__controls {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toggle__container {
+    display: flex;
+    max-width: 126px;
+}
+
+.toggle__container div {
+    display: flex;
+    width: 100%;
+}
+
+.bookmark__button {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: none;
+    border: none;
+}
+
+.header__item__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.small__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #B3B3B3;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sort span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    opacity: 0.6;
+}
+
+.sort select {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #2F51EE;
+    border: none;
+}
+
+.housecard__flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.dayson {
+    color: #464646;
+}
+
+.flex {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex__property__info {
+    flex: 1;
+    max-width: 322px;
+}
+
+.hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.prop__img {
+    margin-top: 24px;
+    border-radius: 10px;
+    margin-bottom: 17px;
+}
+
+.prop__img__slider__img {
+    opacity: 0.4;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.important__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 13px;
+    align-items: center;
+}
+
+.info__price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 11px;
+    /* or 65% */
+    color: #000000;
+}
+
+.info__btns {
+    display: flex;
+    gap: 11px;
+    flex-wrap: wrap;
+}
+
+.ord__btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9px;
+    /* identical to box height, or 112% */
+    color: #1B1B1B;
+    border: 0.6px solid #000000;
+    border-radius: 10000px;
+    background: white;
+    padding: 5px 10px;
+}
+
+.view__btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    font-size: 8px;
+    line-height: 9px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* identical to box height, or 112% */
+    color: #FFFFFF;
+    background: linear-gradient(96.06deg, #5B72E7 51.11%, #2F4ACF 156.48%);
+    border-radius: 10000px;
+    padding: 5px 10px;
+}
+
+.infotags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.estimated__cashflow {
+    display: flex;
+    background: #FAFAFC;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding: 7px 8px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+}
+
+.price__box {
+    position: relative;
+    max-width: max-content;
+}
+
+.price__box h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    max-width: max-content;
+}
+
+.price__box__circle {
+    background: #FBCA4C;
+    border-radius: 1000px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 5px;
+    height: 5px;
+}
+
+.est__cash__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
+    /* identical to box height, or 100% */
+    color: #484848;
+}
+
+.margin {
+    margin-top: 10px;
+}
+
+.est__subfont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7.5px;
+    line-height: 11px;
+    /* identical to box height, or 147% */
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.est__subfont span {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.calc__btn {
+    cursor: pointer;
+}
+
+.item__header__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
+    /* identical to box height, or 100% */
+    color: #484848;
+}
+
+.str__container {
+    margin-top: 8px;
+    padding: 12px 12px 19px 12px;
+    background: #FAFAFC;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    margin-bottom: 14px;
+}
+
+.str__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.side__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
+    /* identical to box height, or 100% */
+    color: #000000;
+    opacity: 0.5;
+}
+
+.str__top__content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ltr__top__content {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.str__edit {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.2px;
+    line-height: 11px;
+    letter-spacing: -0.02em;
+    color: #6B6B82;
+    margin-bottom: -3px;
+}
+
+.side__wrapper {
+    width: 100%;
+    max-width: 194px;
+}
+
+.trend {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7.5px;
+    line-height: 11px;
+    /* identical to box height, or 147% */
+    color: #000000;
+    opacity: 0.3;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 11px;
+}
+
+.between {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 12px;
+}
+
+.str__edit__button {
+    cursor: pointer;
+}
+
+.similar__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.similar__properties {
+    margin-top: 18px;
+    display: flex;
+    max-width: 515px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.similar {
+    position: relative;
+    cursor: pointer;
+}
+
+.similar__overlay {
+    position: absolute;
+    bottom: -33px;
+    left: -20px;
+}
+
+.similar__img {
+    border-radius: 10px;
+}
+
+.similar__fonts {
+    position: relative;
+}
+
+.similar__address {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 11px;
+    /* or 110% */
+    color: white;
+    position: absolute;
+    top: -70px;
+    left: 50px;
+}
+
+.sim__p {
+    margin-top: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 9px;
+    /* identical to box height, or 150% */
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.sim__rev {
+    margin-left: 120px;
+    margin-top: -10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 11px;
+    /* or 85% */
+    color: white;
+}
+
+.sim__rev__sub {
+    margin-left: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 9px;
+    /* identical to box height, or 129% */
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.calc__preview__button {
+    background: #5271FF;
+    border: none;
+    color: white;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+    border-radius: 6px;
+    padding: 10px 20px;
+}

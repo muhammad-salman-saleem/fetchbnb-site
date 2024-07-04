@@ -1,0 +1,797 @@
+.small {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 93px;
+    color: #4161F3;
+}
+
+.title {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 12px;
+    font-size: 42px;
+    text-align: center;
+    line-height: 52px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.title span {
+    color: #9659F6;
+}
+
+.subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    max-width: 466px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    width: 100%;
+    margin-top: 9px;
+    text-align: center;
+
+    color: #ABABB8;
+
+}
+
+.searchcontrol__container {
+    margin-top: 55px;
+    padding: 27px 0px;
+    background: #FAFAFC;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.altitle {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    margin: 0;
+    color: #000000;
+
+}
+
+.bar__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bar__item__search {
+    max-width: 360px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alsub {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    color: #ABABB8;
+    max-width: 400px;
+}
+
+.dropdown__button {
+    border: none;
+    border-radius: 1000px;
+    padding: 13px;
+    display: grid;
+    align-items: center;
+    background-color: #5271FF;
+}
+
+.dropdown__container {
+    position: relative;
+    padding: 7px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 13px;
+}
+
+.dropdown__parent {
+    min-width: 267px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown__child {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.dropdown__child__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+.dropdown__img__container {
+    margin-left: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.ppl__img {
+    position: absolute;
+    top: -40px;
+    right: calc(50vw - (311px / 2));
+}
+
+.dropwdown__item__container {
+    position: absolute;
+    left: 0px;
+    bottom: -182px;
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+    position: absolute;
+    margin-top: 5px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+.dropdown {
+    z-index: 200;
+    position: absolute;
+    margin-top: 5px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.dropwdown__item {
+    z-index: 200;
+    padding: 11px 26px;
+    display: flex;
+    gap: 8px;
+}
+
+.dropwdown__item span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+.dropwdown__item:not(:nth-last-of-type(1)) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bar__item__search__container {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.search__inside__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+    opacity: 0.6;
+}
+
+.search__inside__font span {
+    cursor: pointer;
+    color: #2F4ACF;
+}
+
+.bar__item__highlights {
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bar__item__highlights span {
+    margin-right: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
+
+    color: #A2A2B1;
+
+}
+
+.hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bottom__container {
+    margin-top: 62px;
+}
+
+.results__top__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+    margin-bottom: 58px;
+}
+
+.results__title {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+.results__small {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.3;
+    max-width: 400px;
+}
+
+
+.sort {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sort span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    opacity: 0.6;
+}
+
+.sort select {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #2F51EE;
+    border: none;
+}
+
+.card__parent__container {
+    max-width: 318px;
+    cursor: pointer;
+}
+
+.card__text__container {
+    padding: 23px 11px;
+    background: #FAFAFC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 20px 20px;
+    border-top: none;
+}
+
+.coachcard__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.card__title__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+}
+
+.card__image__container {
+    min-width: 318px;
+    max-height: 138px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.coachcard__image {
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    margin-bottom: -4px;
+}
+
+.card__location {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #5A5A5A;
+}
+
+.coachcard__reviews__container {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.coachcard__reviews__container span {
+    margin-top: 3px;
+}
+
+.coachcard__bottom__container {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.coachcard__tags {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.coachcard__tag {
+    color: #959595;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+    /* or 122% */
+    background: #F9F9F9;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 2.5px;
+    padding: 5px 10px;
+}
+
+.coachcard__bio {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+
+    color: #ABABB8;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.coachingcards__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 200px;
+
+}
+
+.results__inner__container {
+    max-width: max-content;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    padding-right: 20px;
+}
+
+.review__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+.review__inner {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+
+    color: #ABABAB;
+}
+
+.review__image__container {
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+.review__count__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.3;
+}
+
+.sort__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 13px;
+}
+
+.image__container {
+    position: relative;
+    width: 259px;
+    height: 387px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.image__controls {
+    display: flex;
+    width: 100%;
+    max-width: 259px;
+    justify-content: center;
+    gap: 37px;
+    margin-top: 30px;
+}
+
+.image__arr__button {
+    background: #FAFAFC;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    width: 31px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.content__text__title__container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content__text__title__container h4 {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.content__text__container {
+    max-width: 398px;
+}
+
+.content__details__container {
+    display: flex;
+    gap: 39px;
+}
+
+
+.airbnblink {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    background: #5271FF;
+    border-radius: 8px;
+    padding: 10px 17px;
+
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.content__desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+
+    margin: 0;
+    margin-top: 10px;
+    max-height: 335px;
+    overflow-y: scroll;
+
+}
+
+.choose__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+    opacity: 0.6;
+}
+
+.contact__container {
+    height: 387px;
+    max-width: 386px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.conact__inner__container {
+    padding: 18px 20px;
+    background: #FAFAFC;
+    width: 386px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact__inner__container h4 {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+
+    color: #000000;
+
+}
+
+.timepicker__container {
+    display: flex;
+    padding-top: 20px;
+}
+
+.picker {
+    width: 124px;
+    text-align: center;
+    padding: 10px 0px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.pickerselected {
+    background: rgba(82, 113, 255, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+
+}
+
+.pricing__info__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+
+.or__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+
+    text-align: center;
+
+    color: #323232;
+
+    opacity: 0.6;
+}
+
+.coachbtnreq {
+    border: none;
+    display: flex;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.1);
+    border: 1px solid #ABABB8;
+    border-radius: 5px;
+    gap: 2px;
+    padding: 11px 12px;
+}
+
+.coach__req__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+}
+
+.pricing__wrapper__font {
+    display: flex;
+    align-items: center;
+}
+
+.pricing__font__details {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #646465;
+}
+
+.pricing__detail__bold {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.pricing__detail__small {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #505050;
+
+}
+
+.pricing__submit {
+    border: none;
+    width: 100%;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+    background: #5271FF;
+    border-radius: 8px;
+    padding: 11px 0px;
+    margin-top: 19px;
+}
+
+@media (max-width: 1024px) {
+    .sort {
+        display: none;
+    }
+}
+
+@media (max-width: 966px) {
+    .review__container {
+        display: none;
+    }
+
+    .results__inner__container {
+        border: none;
+    }
+
+}
+
+@media (max-width: 824px) {
+    .bar__item__highlights {
+        display: none;
+    }
+
+    .bar__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .altitle {
+        text-align: center;
+    }
+
+    .alsub {
+        text-align: center;
+    }
+}
+
+@media (max-width: 352px) {
+
+    .dropdown__parent {
+        min-width: 180px;
+    }
+}

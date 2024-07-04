@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 0px;
+}
+
+.container__mobile__parent {
+    padding: 33px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container__mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar__main__content {
+    display: flex;
+    gap: 73px;
+}
+
+.navbar__links {
+    display: flex;
+    gap: 49px;
+    align-items: flex-end;
+}
+
+.navbar__links__mobile {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    align-items: flex-start;
+}
+
+.hamburger__menu {
+    cursor: pointer;
+}
+
+.nonselected {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.selected {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3456F2;
+    position: relative;
+}
+
+.auth {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    display: flex;
+    align-items: flex-end;
+    gap: 14px;
+}
+
+.auth__btn {
+    margin-bottom: -5px;
+    border: none;
+    background: none;
+}
+
+.profimg {
+    margin-bottom: -12px;
+    margin-left: calc(22px - 14px);
+}

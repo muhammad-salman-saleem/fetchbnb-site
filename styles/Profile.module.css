@@ -1,0 +1,40 @@
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.button {
+    width: 100%;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 5px;
+    background-color: #5271FF;
+    color: white;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+}
+
+
+/* on hover adjust button with animations change background color*/
+
+.button:hover {
+    background-color: #8ea3ff;
+    color: white;
+    transition: 0.3s;
+}

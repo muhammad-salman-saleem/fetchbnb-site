@@ -1,0 +1,16 @@
+.layout {
+    padding-left: calc(50vw - 600px);
+}
+
+@media screen and (max-width: 1209px) {
+    .layout {
+        padding-left: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .layout {
+        padding-left: 16px;
+        overflow-x: hidden;
+    }
+}

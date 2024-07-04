@@ -1,0 +1,13 @@
+.layout {
+    max-width: 1234px;
+    margin: 0 auto;
+    padding: 0px 32px;
+    height: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .layout {
+        padding: 0px 16px;
+    }
+}

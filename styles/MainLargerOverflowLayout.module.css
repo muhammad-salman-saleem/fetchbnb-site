@@ -1,0 +1,17 @@
+.layout {
+    padding-left: 0;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1209px) {
+    .layout {
+        padding-left: 32px;
+    }
+}
+
+@media screen and (max-width: 1209px) {
+    .layout {
+        padding-left: 16px;
+        overflow-x: hidden;
+    }
+}

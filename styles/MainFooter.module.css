@@ -1,0 +1,124 @@
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.footer__small {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    /* text/secondary */
+    color: #6B6B82;
+    margin-top: 12px;
+}
+
+.footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.footer__link {
+    /* 18px/Semibold */
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* text/secondary */
+    color: #6B6B82;
+}
+
+.footer__auth {
+    display: flex;
+    gap: 24px;
+}
+
+.auth__login {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* basic/black */
+    color: #08072B;
+    background: none;
+    border: 0;
+}
+
+.auth__signup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px 12px;
+    gap: 10px;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* basic/black */
+    color: #FFFFFF;
+    background: none;
+    border: 0;
+    background: #08072B;
+    border-radius: 8px;
+}
+
+.footer__hr {
+    border: 1px solid #E9ECF7;
+}
+
+.footer__important__links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.footer__important__link {
+    /* 18px/Regular */
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    /* cards & inputs/arrows */
+    color: #9999A2;
+}
+
+.footer__important__left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+@media (max-width: 858px) {
+    .footer__links {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .footer__auth {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+}

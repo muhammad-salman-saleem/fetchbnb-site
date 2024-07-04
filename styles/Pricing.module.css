@@ -1,0 +1,112 @@
+.sublayout {
+    padding: 0px 56px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 66px;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+
+
+    color: #ABABB8;
+    max-width: 488px;
+
+}
+
+.header h1 {
+
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.small__tag {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #4161F3;
+}
+
+
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.faq__title {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+
+    color: #000000;
+}
+
+.sum {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #000000;
+
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 23px;
+
+}
+
+.sum::after {
+    content: url(/imgs/arrow_back_new.svg);
+    color: black;
+    position: absolute;
+    font-size: 1.75rem;
+    line-height: 0;
+    top: 15px;
+    right: 15px;
+    font-weight: 200;
+    /* transform-origin: center;
+    transition: 200ms linear; */
+}
+
+.details {
+    padding: 0px 23px;
+}
+
+.flex {
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1197px) {
+    .flex {
+        flex-direction: column;
+        gap: 50px;
+    }
+}

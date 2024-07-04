@@ -1,0 +1,270 @@
+.main {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("../public/imgs/discover_profitable_backgroung.png");
+  color: white;
+  padding: 50px 100px;
+}
+.main_section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.my_account_button {
+  background-color: transparent;
+  border: none;
+  color: #10046d;
+  font-size: larger;
+  margin-right: 10px;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+.my_account_button::after {
+  content: url(/imgs/arrow_back_new.svg);
+  color: black;
+  font-size: 1.75rem;
+  line-height: 0;
+  top: 15px;
+  right: 15px;
+  font-weight: 400;
+
+  /* transform-origin: center;
+    transition: 200ms linear; */
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 20px;
+}
+.side_image_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+.side_image_section_1 {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.side_image_1 {
+  margin: 40px 25px;
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  padding: 20px;
+  height: 240px;
+  font-weight: 500;
+  background-image: url("../public/imgs/discover_profitabl_img1.png");
+}
+.side_image_2 {
+  margin: 40px 25px;
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  padding: 20px;
+  height: 240px;
+  font-weight: 500;
+  background-image: url("../public/imgs/discover_profitabl_img2.png");
+}
+.side_image_3 {
+  margin: 40px 25px;
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  padding: 20px;
+  height: 240px;
+  font-weight: 500;
+  background-image: url("../public/imgs/discover_profitabl_img3.png");
+}
+.side_image_4 {
+  margin: 40px 25px;
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 20px;
+  padding: 20px;
+  height: 240px;
+  font-weight: 500;
+  background-image: url("../public/imgs/discover_profitabl_img4.png");
+}
+.adr {
+  margin-top: 150px;
+  font-weight: bolder;
+}
+.side_content_section {
+  font-family: "TT Interfaces";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 40px;
+  max-width: 78%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  bottom: -130px;
+}
+.side_content_heading {
+  color: #10046d;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 34px;
+  text-transform: uppercase;
+  /* padding: 10px; */
+}
+.side_content_paragraph {
+  color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+.side_content_button {
+  font-family: "TT Interfaces";
+  border: none;
+  background-color: transparent;
+  color: #10046d;
+  font-size: 46px;
+  font-weight: 900;
+  position: relative;
+}
+.content_bar_above_image {
+  position: relative;
+  margin-top: 30px;
+}
+.side_content_button::after {
+  content: "";
+  display: block;
+  width: 95%;
+  border-bottom: 4px solid rgb(159, 143, 208);
+  margin-top: 5px;
+  position: absolute;
+}
+
+.section_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 200px;
+}
+.section_2_heading {
+  color: #10046d;
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 34px;
+}
+.video_container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  width: 100%;
+  max-height: 90vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+    padding: 20px;
+    justify-items: center;
+  }
+  .section_2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .side_content_section {
+    padding-bottom: 40px;
+    bottom: 0px !important;
+  }
+}
+@media screen and (max-width: 601px) {
+  .side_content_section {
+    padding: 0px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 56px;
+    margin-bottom: 56px;
+  }
+  .section_2_heading {
+    font-size: 20px;
+  }
+  .side_content_button {
+    font-size: 40px;
+  }
+  .section_2 {
+    margin-top: 100px;
+  }
+  .side_content_heading {
+    font-size: 20px;
+  }
+  .side_content_paragraph {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1543px) and (min-width: 1032px) {
+  .side_content_section {
+    margin: auto;
+    position: relative;
+    bottom: -84px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+  }
+  .main {
+    padding: 40px 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .side_image_section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  .main {
+    padding: 20px 20px;
+  }
+  .section {
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .section_2_heading {
+    font-size: 25px;
+  }
+}
+

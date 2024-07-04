@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background-color: #F8F8FA;
+    border-radius: 2.5px;
+    padding: 4px 6px;
+}
+
+.font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 11px;
+    color: #959596;
+}

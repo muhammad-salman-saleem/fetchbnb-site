@@ -1,0 +1,173 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+.header {
+    flex-grow: 0
+}
+
+.searchcontrol__container {
+    padding: 27px 0px;
+    background: #FAFAFC;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.searchcontrol__start {
+    max-width: 362px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.searchcontrol__flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.searchcontrol__small {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.vertical__line {
+    width: 1px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    margin-left: calc((22px - 14px) * -1);
+}
+
+.rankings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-left: auto;
+}
+
+.rank__font {
+    margin-left: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.dashboard__split {
+    overflow: hidden;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    align-items: stretch
+}
+
+.split {
+    overflow: hidden;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    align-items: stretch
+}
+
+.dashboard__content {
+    background-color: white;
+    min-width: 1px;
+    min-height: 1px;
+    height: 100%;
+    width: 100%;
+    overflow: auto
+}
+
+.mapview {
+    background-color: lightgrey;
+    min-width: 1px;
+    min-height: 1px;
+    width: 100%;
+}
+
+.historical__parent {
+    width: 100%;
+    background: #F9F9FA;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.historical__container {
+    padding: 16px 0px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    max-width: 595px;
+    gap: 5px;
+    align-items: center;
+}
+
+.historical__item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 173px;
+    height: 158px;
+    padding: 14px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.historical__title {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.historical__subtitle {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #959596;
+}
+
+
+
+@media (max-width: 1270px) {
+    .searchcontrol__small {
+        display: none;
+    }
+
+    .vertical__line {
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+    .split {
+        overflow: hidden;
+        flex-grow: 1;
+        position: relative;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .mapview {
+        display: none;
+    }
+
+}

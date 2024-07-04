@@ -1,0 +1,203 @@
+.wrapper {
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.image__container {
+    position: relative;
+    margin-bottom: 13px;
+}
+
+.total__dot {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+
+.house__image {
+    border-radius: 10px;
+}
+
+.market__days__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 9px;
+    /* identical to box height, or 129% */
+    color: white;
+    position: absolute;
+    bottom: 12px;
+    left: 8px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.lower {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 280px;
+}
+
+.address {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 11px;
+    display: block;
+    /* or 85% */
+    color: #000000;
+}
+
+.city__state {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
+    color: #808080;
+}
+
+.tagline {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 9px;
+    color: #4C4C4C;
+    display: block;
+}
+
+.tagtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
+    color: #808080;
+}
+
+.tag__flex {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tagdata {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    /* or 157% */
+    color: #000000;
+}
+
+.right__title__container {
+    text-align: center;
+}
+
+.right__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    display: inline;
+    line-height: 9px;
+    /* identical to box height, or 100% */
+}
+
+.right__title__desc {
+    display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 9px;
+}
+
+.price__container {
+    position: relative;
+    margin-left: -10px;
+}
+
+.price__dot {
+    position: absolute;
+    border-radius: 1000px;
+    width: 7px;
+    height: 7px;
+    right: -4px;
+    top: -4px;
+    background: #E7493F;
+}
+
+.price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 11px;
+    color: black;
+    text-align: center;
+}
+
+.pricing {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.quick {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chips {
+    display: flex;
+    gap: 9px;
+}
+
+.chip {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 11px;
+    /* or 138% */
+    color: #959596;
+    background: #F8F8FA;
+    border-radius: 2.5px;
+    display: flex;
+    align-items: center;
+    padding: 4px 6px;
+}
+
+.view__btn {
+    border: none;
+    padding: 5px 19px;
+    background: linear-gradient(96.06deg, #5B72E7 51.11%, #2F4ACF 156.48%);
+    border-radius: 10000px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 9px;
+    /* identical to box height, or 112% */
+    color: #FFFFFF;
+}
+
+.loading {
+    height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

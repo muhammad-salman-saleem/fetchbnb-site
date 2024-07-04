@@ -1,0 +1,575 @@
+.wrapper {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    background: #FAFAFC;
+    overflow-x: hidden;
+}
+
+.auth__side {
+    flex: 1;
+    min-width: 800px;
+    width: 100%;
+    /* This will be changed via media query */
+}
+
+.map__side {
+    width: 100%;
+    background-image: url('/imgs/hero_bg.svg');
+    background-size: cover;
+    background-position: center;
+    min-height: 1px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 705px;
+    flex-direction: column;
+}
+
+.title {
+    /* headings/H2 */
+
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* identical to box height, or 56px */
+
+
+    /* basic/black */
+
+    color: #08072B;
+
+}
+
+.subtitle {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 12px;
+    /* identical to box height, or 27px */
+
+
+    /* text/secondary */
+
+    color: #6B6B82;
+}
+
+.main__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: left;
+}
+
+.map__title {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 24px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+
+    text-align: center;
+
+    /* basic/black */
+
+    color: #08072B;
+}
+
+.map__subtitle {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* text/secondary */
+
+    color: #6B6B82;
+    max-width: 411px;
+    margin-top: 12px;
+}
+
+.input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #C6C6DB;
+}
+
+.input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #C6C6DB;
+}
+
+.input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #C6C6DB;
+}
+
+.input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #C6C6DB;
+}
+
+.input__container {
+    /* 18px/Regular */
+    display: flex;
+    gap: 10px;
+}
+
+.checkbox__font {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+
+    /* text/secondary */
+
+    color: #6B6B82;
+}
+
+.checkbox {
+    border: 1px solid #E4E4F9;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    background: #E4E4F9;
+}
+
+.input__container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.input__container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    margin-top: 3px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #E4E4F9;
+    border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.input__container:hover input~.checkmark {
+    background: #FAFAFC;
+}
+
+/* When the checkbox is checked, add a blue background */
+.input__container input:checked~.checkmark {
+    background-color: #5271FF;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.input__container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.input__container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 3px;
+    height: 8px;
+    border: 1px solid #E4E4F9;
+    border-radius: 4px;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.auth__settings__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 360px;
+    margin-top: 16px;
+}
+
+.forgotpassword {
+
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+
+    /* accent/blue accent */
+
+    color: #5271FF;
+
+
+}
+
+.altauth {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+
+    /* text/secondary */
+
+    color: #6B6B82;
+
+    position: absolute;
+    bottom: 30px;
+    left: 32px;
+}
+
+.altlink {
+    color: #5271FF;
+}
+
+.divider {
+    margin-top: 11px;
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #6B6B82;
+}
+
+.hr {
+    min-width: 1px;
+    width: 100%;
+    border: 0.5px solid #959596;
+}
+
+.auth__providers {
+    display: flex;
+    gap: 29px;
+    max-width: 370px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.auth__providers button {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.ind__button {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background: none;
+    padding: 11px 73px;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+
+    color: #000000;
+}
+
+.bus__button {
+    border: none;
+    /* accent/blue gradient */
+
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    padding: 11px 73px;
+
+    /* basic/white */
+
+    color: #FFFFFF;
+    background: linear-gradient(264.03deg, #5271FF 0%, #95FFFF 201.92%);
+    border-radius: 8px;
+}
+
+.type__buttons {
+    display: flex;
+    gap: 27px;
+    margin-top: 68px;
+}
+
+.gender__container {
+    display: flex;
+    max-width: 370px;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+
+.gender__item {
+    background: #FFFFFF;
+    border: 1px solid #E4E4F9;
+    border-radius: 12px;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 176px;
+    height: 48px;
+    justify-content: center;
+    line-height: 140%;
+    color: #C6C6DB;
+    cursor: pointer;
+}
+
+.gender__item__selected {
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #6CA7FF;
+    border-radius: 12px;
+
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+
+    color: #6C6C6C;
+    width: 176px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.photo__container {
+    display: flex;
+    gap: 26px;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+
+    color: #6B6B82;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.photo__input {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.photo__input__hidden {
+    display: none;
+}
+
+.desc__container {
+    margin-top: 32px;
+}
+
+.desc__font {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+
+    color: #6B6B82;
+}
+
+.description__container {
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.description__item {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 140%;
+    /* or 17px */
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #E4E4F9;
+    border-radius: 12px;
+    width: 176px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C6C6DB;
+}
+
+.description__wrapper {
+    margin-top: 24px;
+}
+
+.description__item__selected {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.5px;
+    line-height: 140%;
+    /* or 17px */
+    cursor: pointer;
+
+    color: #90909A;
+    width: 176px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* basic/white */
+
+    background: #FFFFFF;
+    border: 1px solid #6CA7FF;
+    border-radius: 12px;
+}
+
+.description__finalized__container {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    /* identical to box height, or 21px */
+
+
+    color: #90B7F0;
+
+}
+
+.propertyloc__inputs {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.propertyloc__input {
+    width: 370px;
+    height: 48px;
+    padding: 10px 16px;
+
+    /* basic/white */
+
+    background: #FFFFFF;
+    /* cards & inputs/input stroke */
+
+    border: 1px solid #E4E4F9;
+    border-radius: 12px;
+
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    /* text/input */
+
+}
+
+.propertloc__input__wrapper {
+    position: relative;
+    max-width: 370px;
+}
+
+.propertloc__pinimg {
+    position: absolute;
+    right: 15px;
+    bottom: calc(50% - (19px / 2));
+}
+
+.propertyLoc__button {
+    border: none;
+    background: none;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    /* identical to box height, or 21px */
+
+
+    color: #90B7F0;
+
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 27px;
+    margin-bottom: 53px;
+}

@@ -1,0 +1,19 @@
+.historical__graphfont {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 9px;
+    color: #959596;
+    background-color: white;
+    border-radius: 1000px;
+}
+
+.historical__label {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 40px 1px rgba(0, 0, 0, 0.05);
+}

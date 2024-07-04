@@ -1,0 +1,12 @@
+.dropdowns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 38px;
+}
+
+@media (max-width: 1326px) {
+    .dropdowns {
+        gap: 10px;
+    }
+}

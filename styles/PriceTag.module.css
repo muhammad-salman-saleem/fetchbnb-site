@@ -1,0 +1,60 @@
+.small {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    color: #3A436A;
+}
+
+.price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    /* or 42px */
+    color: #000000;
+}
+
+.small__high {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    color: #BAC4F3;
+}
+
+.price__high {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    /* or 42px */
+    color: white;
+}
+
+.small__high__hostcon {
+    font-family: 'Inter';
+    font-style: normal;
+    text-decoration: line-through;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    /* or 21px */
+    color: #d6d7db;
+}
+
+.price__high__hostcon {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 42px */
+    color: rgb(235, 235, 235);
+}

@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+}
+
+.toggle__container {
+    width: 95px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10000px;
+    position: relative;
+}
+
+.toggle__circle__on {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #5271FF;
+    border-radius: 10000px;
+    top: 6px;
+    right: 8px;
+}
+
+.toggle__circle__off {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #ABABB8;
+    border-radius: 10000px;
+    top: 6px;
+    left: 8px;
+}

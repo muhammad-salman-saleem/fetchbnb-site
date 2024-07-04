@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-SemiBoldItalic.eot');
+    src: local('TT Interfaces SemiBold Italic'), local('TTInterfaces-SemiBoldItalic'), url('/assets/TTInterfaces-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-SemiBoldItalic.woff2') format('woff2'), url('/assets/TTInterfaces-SemiBoldItalic.woff') format('woff'), url('/assets/TTInterfaces-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-MediumItalic.eot');
+    src: local('TT Interfaces Medium Italic'), local('TTInterfaces-MediumItalic'), url('/assets/TTInterfaces-MediumItalic.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-MediumItalic.woff2') format('woff2'), url('/assets/TTInterfaces-MediumItalic.woff') format('woff'), url('/assets/TTInterfaces-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-BoldItalic.eot');
+    src: local('TT Interfaces Bold Italic'), local('TTInterfaces-BoldItalic'), url('/assets/TTInterfaces-BoldItalic.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-BoldItalic.woff2') format('woff2'), url('/assets/TTInterfaces-BoldItalic.woff') format('woff'), url('/assets/TTInterfaces-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-Italic.eot');
+    src: local('TT Interfaces Italic'), local('TTInterfaces-Italic'), url('/assets/TTInterfaces-Italic.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-Italic.woff2') format('woff2'), url('/assets/TTInterfaces-Italic.woff') format('woff'), url('/assets/TTInterfaces-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-SemiBold.eot');
+    src: local('TT Interfaces SemiBold'), local('TTInterfaces-SemiBold'), url('/assets/TTInterfaces-SemiBold.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-SemiBold.woff2') format('woff2'), url('/assets/TTInterfaces-SemiBold.woff') format('woff'), url('/assets/TTInterfaces-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-Medium.eot');
+    src: local('TT Interfaces Medium'), local('TTInterfaces-Medium'), url('/assets/TTInterfaces-Medium.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-Medium.woff2') format('woff2'), url('/assets/TTInterfaces-Medium.woff') format('woff'), url('/assets/TTInterfaces-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-ExtraBold.eot');
+    src: local('TT Interfaces ExtraBold'), local('TTInterfaces-ExtraBold'), url('/assets/TTInterfaces-ExtraBold.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-ExtraBold.woff2') format('woff2'), url('/assets/TTInterfaces-ExtraBold.woff') format('woff'), url('/assets/TTInterfaces-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-BlackItalic.eot');
+    src: local('TT Interfaces Black Italic'), local('TTInterfaces-BlackItalic'), url('/assets/TTInterfaces-BlackItalic.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-BlackItalic.woff2') format('woff2'), url('/assets/TTInterfaces-BlackItalic.woff') format('woff'), url('/assets/TTInterfaces-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-Bold.eot');
+    src: local('TT Interfaces Bold'), local('TTInterfaces-Bold'), url('/assets/TTInterfaces-Bold.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-Bold.woff2') format('woff2'), url('/assets/TTInterfaces-Bold.woff') format('woff'), url('/assets/TTInterfaces-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-Light.eot');
+    src: local('TT Interfaces Light'), local('TTInterfaces-Light'), url('/assets/TTInterfaces-Light.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-Light.woff2') format('woff2'), url('/assets/TTInterfaces-Light.woff') format('woff'), url('/assets/TTInterfaces-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-ExtraBoldItalic.eot');
+    src: local('TT Interfaces ExtraBold Italic'), local('TTInterfaces-ExtraBoldItalic'), url('/assets/TTInterfaces-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-ExtraBoldItalic.woff2') format('woff2'), url('/assets/TTInterfaces-ExtraBoldItalic.woff') format('woff'), url('/assets/TTInterfaces-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-Regular.eot');
+    src: local('TT Interfaces Regular'), local('TTInterfaces-Regular'), url('/assets/TTInterfaces-Regular.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-Regular.woff2') format('woff2'), url('/assets/TTInterfaces-Regular.woff') format('woff'), url('/assets/TTInterfaces-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-Black.eot');
+    src: local('TT Interfaces Black'), local('TTInterfaces-Black'), url('/assets/TTInterfaces-Black.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-Black.woff2') format('woff2'), url('/assets/TTInterfaces-Black.woff') format('woff'), url('/assets/TTInterfaces-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-ThinItalic.eot');
+    src: local('TT Interfaces Thin Italic'), local('TTInterfaces-ThinItalic'), url('/assets/TTInterfaces-ThinItalic.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-ThinItalic.woff2') format('woff2'), url('/assets/TTInterfaces-ThinItalic.woff') format('woff'), url('/assets/TTInterfaces-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-LightItalic.eot');
+    src: local('TT Interfaces Light Italic'), local('TTInterfaces-LightItalic'), url('/assets/TTInterfaces-LightItalic.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-LightItalic.woff2') format('woff2'), url('/assets/TTInterfaces-LightItalic.woff') format('woff'), url('/assets/TTInterfaces-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-ExtraLightItalic.eot');
+    src: local('TT Interfaces ExtLt Ita'), local('TTInterfaces-ExtraLightItalic'), url('/assets/TTInterfaces-ExtraLightItalic.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-ExtraLightItalic.woff2') format('woff2'), url('/assets/TTInterfaces-ExtraLightItalic.woff') format('woff'), url('/assets/TTInterfaces-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-Thin.eot');
+    src: local('TT Interfaces Thin'), local('TTInterfaces-Thin'), url('/assets/TTInterfaces-Thin.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-Thin.woff2') format('woff2'), url('/assets/TTInterfaces-Thin.woff') format('woff'), url('/assets/TTInterfaces-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Interfaces';
+    src: url('/assets/TTInterfaces-ExtraLight.eot');
+    src: local('TT Interfaces Extra Light'), local('TTInterfaces-ExtraLight'), url('/assets/TTInterfaces-ExtraLight.eot?#iefix') format('embedded-opentype'), url('/assets/TTInterfaces-ExtraLight.woff2') format('woff2'), url('/assets/TTInterfaces-ExtraLight.woff') format('woff'), url('/assets/TTInterfaces-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.marker {
+    background-image: url('/mapbox-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.46);
+    overflow: auto;
+}
+.pureblackoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 100);
+    overflow: auto;
+}
+
+details[open] summary~* {
+    animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary {
+    width: 100%;
+    padding: 0.5rem 0;
+    border-top: 1px solid black;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 300;
+    list-style: none;
+}
+
+details summary:after {
+    content: "+";
+    color: black;
+    position: absolute;
+    font-size: 1.75rem;
+    line-height: 0;
+    margin-top: 0.75rem;
+    right: 0;
+    font-weight: 200;
+    transform-origin: center;
+    transition: 200ms linear;
+}
+
+details[open] summary:after {
+    transform: rotate(180deg);
+    font-size: 2rem;
+}
+
+details summary {
+    outline: 0;
+}
+
+details p {
+    font-size: 0.95rem;
+    margin: 0 0 1rem;
+    padding-top: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
+.active-middle h4 {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    /* or 39px */
+    /* basic/black */
+    color: #08072B;
+}
+
+.active-middle p {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    /* text/secondary */
+    color: #6B6B82;
+}
+
+.mapboxgl-ctrl-attrib {
+    display: none;
+}
+
+@media (max-width: 1120px) {
+    .active-middle h4 {
+        font-family: 'TT Interfaces';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        /* or 39px */
+        /* basic/black */
+        color: #08072B;
+    }
+}
+
+.mapboxgl-ctrl-logo {
+    z-index: 0 !important;
+}
+
+.mapboxgl-ctrl-bottom-left {
+    z-index: 0 !important;
+}

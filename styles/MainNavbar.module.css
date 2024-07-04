@@ -1,0 +1,133 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+
+.auth__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger__menu {
+    cursor: pointer;
+}
+
+.mainsite {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+
+    /* text/secondary */
+
+    color: #6B6B82;
+}
+
+.links__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+}
+
+.links__mobile__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 22px;
+    gap: 22px;
+}
+
+.link {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* text/secondary */
+    color: #6B6B82;
+}
+
+.auth__buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.auth__login {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* basic/black */
+    color: #08072B;
+    background: none;
+    border: 0;
+}
+
+.auth__signup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 20px 12px;
+    gap: 10px;
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* basic/black */
+    color: #FFFFFF;
+    background: none;
+    border: 0;
+    background: #08072B;
+    border-radius: 8px;
+}
+
+@media(max-width: 391px) {
+    .auth__buttons {
+        display: flex;
+        gap: 24px;
+    }
+
+    .auth__login {
+        font-family: 'TT Interfaces';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 140%;
+        /* or 25px */
+        /* basic/black */
+        color: #08072B;
+        background: none;
+        border: 0;
+    }
+
+    .auth__signup {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px 20px 12px;
+        gap: 10px;
+        font-family: 'TT Interfaces';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 140%;
+        /* or 25px */
+        /* basic/black */
+        color: #FFFFFF;
+        background: none;
+        border: 0;
+        background: #08072B;
+        border-radius: 8px;
+    }
+}

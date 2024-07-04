@@ -1,0 +1,262 @@
+.pricing__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    background: #F5F5F7;
+    border-radius: 16px;
+    max-width: 388px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.price__font__1 {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    /* identical to box height, or 42px */
+    /* accent/violet */
+    color: #9F54FF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.price__font__2 {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+    /* text/secondary */
+    color: #6B6B82;
+}
+
+.price__button {
+    border: none;
+    /* 18px/Semibold */
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    /* basic/white */
+    color: #FFFFFF;
+    /* accent/blue gradient */
+    background: linear-gradient(264.03deg, #5271FF 0%, #95FFFF 201.92%);
+    border-radius: 8px;
+    padding: 12px 0px;
+}
+
+.pricing__title {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+    /* basic/black */
+    color: #08072B;
+    text-align: center;
+}
+
+.price__font__container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.price__check__container {
+    align-items: flex-end;
+    display: flex;
+    gap: 10px;
+}
+
+.price__check__font__bold {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* basic/black */
+    color: #08072B;
+}
+
+.price__check__font {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    /* text/secondary */
+    color: #6B6B82;
+}
+
+.price__image__1 {
+    position: absolute;
+    top: -30px;
+    left: -40px;
+}
+
+.price__image__2 {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.price__small__side {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* accent/blue accent */
+    color: #5271FF;
+}
+
+.price__title__side {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* identical to box height, or 56px */
+    /* basic/black */
+    color: #08072B;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.price__subfont__side {
+    /* 18px/Regular */
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    /* text/secondary */
+    color: #6B6B82;
+}
+
+.price__maxfont {
+    max-width: 570px;
+}
+
+.pricing__desc {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #ABABB8;
+    max-width: 269px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 31px;
+    align-items: center;
+}
+
+.toggle__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 21px;
+    gap: 20px;
+}
+
+.selected__price__font {
+
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+
+    color: #686868;
+}
+
+.unselected__price__font {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+
+    color: #BBBBBB;
+}
+
+.pricecolor {
+
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+
+    color: #5B72E7;
+
+    opacity: 0.8;
+}
+
+.toggle {
+
+    background: rgba(217, 217, 217, 0.1);
+    border: 1px solid #E5E5E5;
+    border-radius: 100000px;
+    width: 75px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 3px 4px;
+    cursor: pointer;
+}
+
+.circle__left {
+    background: #5271FF;
+    border-radius: 100000px;
+    width: 28px;
+    height: 28px;
+
+}
+
+.price__font__trial {
+    font-family: 'TT Interfaces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+@media (max-width: 1197px) {
+    .price__image__2 {
+        display: none;
+    }   
+}
